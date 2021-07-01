@@ -24,7 +24,7 @@
                     
                 
                     <div class="kotak_login">
-                        <p class="tega">LOGIN</p>
+                        <p class="tega"><a href="index.php">LOGIN</a></p>
                 
                         <form action="cek_login.php" method="post">
                             <center><label><b>Nama Pengguna</b></label></center>

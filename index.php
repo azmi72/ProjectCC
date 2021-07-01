@@ -54,11 +54,18 @@
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav" id="top-navigation">
                             <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="pilihanLiga.html">Liga</a></li>
+                            <li><a href="pilihanLiga.php">league </a></li>
+                            <?php
+                            if(empty($_SESSION['Nama_Pengguna'])){                           
+                            echo '<li ><a href="login.php">Live Match</a></li>';
+                            } else {
+                            echo '<li ><a href="livematch.php">Live Match</a></li>';
+                            } 
+                            ?>
                             <li><a href="#news">News</a></li>
                             <li><a href="#aboutus">About Us</a></li>
                             <?php
-                             if(!$_SESSION['Nama_Pengguna']){                           
+                            if(empty($_SESSION['Nama_Pengguna'])){                           
                             echo '<li ><a href="login.php">Log in</a></li>';
                             } else {
                             echo '<li ><a href="logout.php">Log out</a></li>';
@@ -83,9 +90,16 @@
                 <div class="container">
                     <!-- Start first slide -->
                     <div class="da-slide">
-                        <h2 class="fittext2">Welcome to Sekilas Bola. How are you <br><?php echo $_SESSION['Nama_Pengguna']; ?></br> </h2>
+                        <h2 class="fittext2"> 
+                            <?php
+                            if(empty($_SESSION['Nama_Pengguna'])){                           
+                            echo 'Welcome To Sekilas Bola</h2>';
+                            } else {
+                            $nama = $_SESSION['Nama_Pengguna'];    
+                            echo 'Welcome to Sekilas Bola. How are you <br>'.$nama.'</br> </h2>';
+                            }?>
                         
-                        <p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane.</p>
+                        <p>The biggest website for those of you who love football and don't want to miss information related to football around the world.</p>
                         <a href="#" class="da-link button">Read more</a>
                         <div class="da-img">
                             <img src="images/Slider01.png" alt="image01" width="320">
