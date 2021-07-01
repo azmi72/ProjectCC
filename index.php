@@ -54,7 +54,7 @@
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav" id="top-navigation">
                             <li class="active"><a href="#home">Home</a></li>
-                            <li><a href="pilihanLiga.php">league </a></li>
+                            <li><a href="pilihanLiga.php">League</a></li>
                             <?php
                             if(empty($_SESSION['Nama_Pengguna'])){                           
                             echo '<li ><a href="login.php">Live Match</a></li>';
@@ -98,9 +98,8 @@
                             $nama = $_SESSION['Nama_Pengguna'];    
                             echo 'Welcome to Sekilas Bola. How are you <br>'.$nama.'</br> </h2>';
                             }?>
-                        
-                        <p>The biggest website for those of you who love football and don't want to miss information related to football around the world.</p>
-                        <a href="#" class="da-link button">Read more</a>
+                        <p>Untuk informasi pertandingan kepada pencinta sepak bola, baik pertandingan lama, sedang berlangsung, maupun pertandingan yang akan datang.</p>
+                        <a href="#aboutus" class="da-link button">Read more</a>
                         <div class="da-img">
                             <img src="images/Slider01.png" alt="image01" width="320">
                         </div>
@@ -108,26 +107,15 @@
                     <!-- End first slide -->
                     <!-- Start second slide -->
                     <div class="da-slide">
-                        <h2>Easy management</h2>
-                        <h4>Easy to use</h4>
-                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                        <a href="#" class="da-link button">Read more</a>
+                        <h2>Best League</h2>
+                        <p>Ada banyak pilihan liga terbaik di dunia untuk anda. Lihat pertandingannya dan analisis statistiknya!</p>
+                        <a href="pilihanLiga.php" class="da-link button">Read more</a>
                         <div class="da-img">
                             <img src="images/Slider02.png" width="320" alt="image02">
                         </div>
                     </div>
                     <!-- End second slide -->
-                    <!-- Start third slide -->
-                    <div class="da-slide">
-                        <h2>Revolution</h2>
-                        <h4>Customizable</h4>
-                        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
-                        <a href="#" class="da-link button">Read more</a>
-                        <div class="da-img">
-                            <img src="images/Slider03.png" width="320" alt="image03">
-                        </div>
-                    </div>
-                    <!-- Start third slide -->
+
                     <!-- Start cSlide navigation arrows -->
                     <div class="da-arrows">
                         <span class="da-arrows-prev"></span>
@@ -140,70 +128,27 @@
         <!-- End home section -->
 
         <!-- Service section start -->
-        <div class="section primary-section" id="liga">
+        <div class="section primary-section" id="league">
             <div class="container">
                 <!-- Start title section -->
                 <div class="title">
-                    <h1>Liga Terbaik</h1>
+                    <h1>Best League</h1>
                     <!-- Section's title goes here -->
-                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                    <p>Ada banyak pilihan liga terbaik di dunia untuk anda. Lihat pertandingannya dan analisis statistiknya!</p>
                     <!--Simple description for section goes here. -->
-                </div>
-                <div class="row-fluid">
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <img class="img-circle" src="images/Service1.png" alt="service 1">
-                            </div>
-                            <h3>Modern Design</h3>
-                            <p>We Create Modern And Clean Theme For Your Business Company.</p>
-                        </div>
-                    </div>
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <img class="img-circle" src="images/Service2.png" alt="service 2" />
-                            </div>
-                            <h3>Powerfull Theme</h3>
-                            <p>We Create Modern And Powerful Theme With Lots Animation And Features</p>
-                        </div>
-                    </div>
-                    <div class="span4">
-                        <div class="centered service">
-                            <div class="circle-border zoom-in">
-                                <img class="img-circle" src="images/Service3.png" alt="service 3">
-                            </div>
-                            <h3>Clean Code</h3>
-                            <p>We Create Modern And Powerful Html5 And CSS3 Code Easy For Read And Customize.</p>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
         <!-- Service section end -->
 
-        <!-- Portfolio section start -->
-        <div class="section secondary-section " id="portfolio">
+         <!-- Portfolio section start -->
+         <div class="section secondary-section " id="match">
             <div class="triangle"></div>
             <div class="container">
                 <div class=" title">
-                    <h1>Have You Seen our Works?</h1>
-                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                    <h1><b>Latest Match</b></h1>
                 </div>
-                <ul class="nav nav-pills">
-                    <li class="filter" data-filter="all">
-                        <a href="#noAction">All</a>
-                    </li>
-                    <li class="filter" data-filter="web">
-                        <a href="#noAction">Web</a>
-                    </li>
-                    <li class="filter" data-filter="photo">
-                        <a href="#noAction">Photo</a>
-                    </li>
-                    <li class="filter" data-filter="identity">
-                        <a href="#noAction">Identity</a>
-                    </li>
-                </ul>
+                
                 <!-- Start details for portfolio project 1 -->
                 <div id="single-project">
                     <div id="slidingDiv" class="toggleDiv row-fluid single-project">
@@ -213,22 +158,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Portugal vs France</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Kick Off</span>19.00 (GMT), 23 June 2021</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Referee</span>Antonio Mateu</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Stadium</span>Puskas Arena</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                        <span>Link</span>https://footyroom.co/matches/79971942/portugal-vs-france/review</div>
+                                    <p><span><br>Portugal: </span><br> Ronaldo (31') <br> Ronaldo (60')</p>
+                                    <p><span>France: </span><br> Benzema (45') <br> Benzema (47')</p>
                                 </div>
-                                <p>Believe in yourself! Have faith in your abilities! Without a humble but reasonable confidence in your own powers you cannot be successful or happy.</p>
                             </div>
                         </div>
                     </div>
@@ -241,22 +187,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Sweden vs Poland</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Kick Off</span>16.00 (GMT), 23 June 2021</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Referee</span>Michael Oliver</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Stadium</span>Saint Petersburg Stadium</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                        <span>Link</span>https://footyroom.co/matches/79971936/sweden-vs-poland/review</div>
+                                    <p><span><br>Sweden: </span><br> Forsberg (2') <br> Forsberg (59') <br> Claesson (90')</p>
+                                    <p><span>Poland: </span><br> Lewandowski (61') <br> Lewandowski (84') </p>
                                 </div>
-                                <p>Life is a song - sing it. Life is a game - play it. Life is a challenge - meet it. Life is a dream - realize it. Life is a sacrifice - offer it. Life is love - enjoy it.</p>
                             </div>
                         </div>
                     </div>
@@ -269,22 +216,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Slovakia vs Spain</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Kick Off</span>16.00 (GMT), 23 June 2021</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Referee</span>Bjorn Kuipers</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Stadium</span>Estadio de La Cartuja</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                        <span>Link</span>https://footyroom.co/matches/79971935/slovakia-vs-spain/review</div>
+                                    <p><span><br>Slovakia: </span></p>
+                                    <p><span>Spain: </span><br> Dubravka [OG] (30') <br> Laporte (45') <br> Sarabia (56') <br> Torres (67') <br> Kucka [OG] (71') </p>
                                 </div>
-                                <p>How far you go in life depends on your being tender with the young, compassionate with the aged, sympathetic with the striving and tolerant of the weak and strong. Because someday in your life you will have been all of these.</p>
                             </div>
                         </div>
                     </div>
@@ -297,22 +245,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Project for Some Client</h3>
+                                    <h3>Italy vs Wales</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Kick Off</span>16.00 (GMT), 20 June 2021</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Referee</span>Ovidiu Hategan</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Stadium</span>Stadio Olimpico, Rome</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                        <span>Link</span>https://footyroom.co/matches/79971915/italy-vs-wales/review</div>
+                                    <p><span><br>Italy: </span><br> Pessina (39')</p>
+                                    <p><span>Wales: </span></p>
                                 </div>
-                                <p>Life's but a walking shadow, a poor player, that struts and frets his hour upon the stage, and then is heard no more; it is a tale told by an idiot, full of sound and fury, signifying nothing.</p>
                             </div>
                         </div>
                     </div>
@@ -325,22 +274,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Finland vs Belgium</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Kick Off</span>19.00 (GMT), 21 June 2021</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Referee</span>Felix Brych</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Stadium</span>Saint Petersburg Stadium</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                        <span>Link</span>https://footyroom.co/matches/79971921/finland-vs-belgium/review</div>
+                                    <p><span><br>Finland: </span></p>
+                                    <p><span>Belgium: </span><br> Hradecky (74') <br> Lukaku (81') </p>
                                 </div>
-                                <p>We need to give each other the space to grow, to be ourselves, to exercise our diversity. We need to give each other space so that we may both give and receive such beautiful things as ideas, openness, dignity, joy, healing, and inclusion.</p>
                             </div>
                         </div>
                     </div>
@@ -353,22 +303,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Croatia vs Scotland</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Kick Off</span>19.00 (GMT), 22 June 2021</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Referee</span>Fernando Rapallini</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Stadium</span>Hampden Park</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                        <span>Link</span>https://footyroom.co/matches/79971930/croatia-vs-scotland/review</div>
+                                    <p><span><br>Croatia: </span><br> Vlasic (17') <br> Modric (62') <br> Perisic (77')</p>
+                                    <p><span>Scotland: </span><br> McGregor (42') </p>
                                 </div>
-                                <p>I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived.</p>
                             </div>
                         </div>
                     </div>
@@ -381,22 +332,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Czech Republik vs England</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Kick Off</span>19.00 (GMT), 22 June 2021</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Referee</span>Artur Dias</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Stadium</span>Wembley</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                        <span>Link</span>https://footyroom.co/matches/79971929/czech-republic-vs-england/review</div>
+                                    <p><span><br>Czech Republik: </span></p>
+                                    <p><span>England: </span><br> Sterling (12')</p>
                                 </div>
-                                <p>Always continue the climb. It is possible for you to do whatever you choose, if you first get to know who you are and are willing to work with a power that is greater than ourselves to do it.</p>
                             </div>
                         </div>
                     </div>
@@ -409,22 +361,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>North Macedonia vs Netherlands</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Kick Off</span>16.00 (GMT), 21 June 2021</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Referee</span>Istvan Kovacs</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Stadium</span>Johan Cruijff Arena</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                        <span>Link</span>https://footyroom.co/matches/79971946/north-macedonia-vs-netherlands/review</div>
+                                    <p><span> <br> North Macedonia: </span></p>
+                                    <p><span>Netherlands: </span><br> Depay (24') <br> Wijnaldum (51') <br> Wijnaldum (58') </p>
                                 </div>
-                                <p>What if you gave someone a gift, and they neglected to thank you for it - would you be likely to give them another? Life is the same way. In order to attract more of the blessings that life has to offer, you must truly appreciate what you already have.</p>
                             </div>
                         </div>
                     </div>
@@ -437,22 +390,23 @@
                         <div class="span6">
                             <div class="project-description">
                                 <div class="project-title clearfix">
-                                    <h3>Webste for Some Client</h3>
+                                    <h3>Germany vs Hungary</h3>
                                     <span class="show_hide close">
                                         <i class="icon-cancel"></i>
                                     </span>
                                 </div>
                                 <div class="project-info">
                                     <div>
-                                        <span>Client</span>Some Client Name</div>
+                                        <span>Kick Off</span>19.00 (GMT), 23 June 2021</div>
                                     <div>
-                                        <span>Date</span>July 2013</div>
+                                        <span>Referee</span>Sergei Karasev</div>
                                     <div>
-                                        <span>Skills</span>HTML5, CSS3, JavaScript</div>
+                                        <span>Stadium</span>Fussball Arena Munchen</div>
                                     <div>
-                                        <span>Link</span>http://examplecomp.com</div>
+                                        <span>Link</span>https://footyroom.co/matches/79971941/germany-vs-hungary/review</div>
+                                    <p><span><br> Germany: </span><br> Havertz (66') <br> Goretzka (84') <br> Claesson (90')</p>
+                                    <p><span>Hungary: </span><br> Szalai (11') <br> Schafer (68') </p>
                                 </div>
-                                <p>I learned that we can do anything, but we can't do everything... at least not at the same time. So think of your priorities not in terms of what activities you do, but when you do them. Timing is everything.</p>
                             </div>
                         </div>
                     </div>
@@ -464,8 +418,8 @@
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Portugal vs France</h3>
+                                <p>Euro 2021 - Grup F</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -475,8 +429,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Sweden vs Poland</h3>
+                                <p>Euro 2020 - Grup E</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -486,8 +440,8 @@
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Slovakia vs Spain</h3>
+                                <p>Euro 2020 - Grup E</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -497,8 +451,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Italy vs Wales</h3>
+                                <p>Euro 2020 - Grup A</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -508,8 +462,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Finland vs Belgium</h3>
+                                <p>Euro 2020 - Grup B</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -519,8 +473,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Croatia vs Scotland</h3>
+                                <p>Euro 2020 - Grup D</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -530,8 +484,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Czech Republik vs England</h3>
+                                <p>Euro 2020 - Grup D</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -541,8 +495,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>North Macedonia vs Netherlands</h3>
+                                <p>Euro 2020 - Grup C</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -552,8 +506,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Thumbnail label</h3>
-                                <p>Thumbnail caption...</p>
+                                <h3>Germany vs Hungary</h3>
+                                <p>Euro 2020 - Grup F</p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -569,122 +523,78 @@
             <div class="container">
                 <div class="title">
                     <h1>Football News</h1>
-                    <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                    <p>Baca juga berita terbaru seputar dunia sepakbola dari sumber-sumber terpercaya dan terbaru!</p>
                 </div>
                 <div class="row-fluid team">
                     <div class="span4" id="first-person">
                         <div class="thumbnail">
                             <img src="images/Team1.png" alt="team 1">
-                            <h3>John Doe</h3>
+                            <h3>Berita Ronaldo</h3>
                             <ul class="social">
                                 <li>
-                                    <a href="">
-                                        <span class="icon-facebook-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-twitter-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-linkedin-circled"></span>
+                                    <a href="https://www.bola.net/italia/cristiano-ronaldo-hengkang-inilah-deretan-kandidat-penggantinya-di-juventus-cb0f19.html">
+                                        <span class="icon-globe"></span>
                                     </a>
                                 </li>
                             </ul>
                             <div class="mask">
-                                <h2>Copywriter</h2>
-                                <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                                <h4>Cristiano Ronaldo Hengkang, Inilah Deretan Kandidat Penggantinya di Juventus</h4>
+                                <p> Juventus mulai bersiap-siap kehilangan sang bintang, Cristiano Ronaldo. Bianconeri kabarnya sudah menyiapkan sejumlah nama untuk menggantikan CR7 musim depan. Ronaldo kabarnya berniat hengkang dari Juventus pada musim panas ini menyusul kegagalan timnya mempertahankan gelar Scudetto serta kembali gagal berjaya di pentas Liga Champions</p>
+                                <br>
+                                <p>Baca Selengkapnya di Bola.net</p>
                             </div>
                         </div>
                     </div>
                     <div class="span4" id="second-person">
                         <div class="thumbnail">
                             <img src="images/Team2.png" alt="team 1">
-                            <h3>John Doe</h3>
+                            <h3>Berita Pep Guardiola</h3>
                             <ul class="social">
                                 <li>
-                                    <a href="">
-                                        <span class="icon-facebook-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-twitter-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-linkedin-circled"></span>
+                                    <a href="https://www.bola.net/spanyol/ogah-balik-pep-guardiola-sarankan-barcelona-tunjuk-kembali-luis-enrique-sebagai-pelatih-b4e78f.html">
+                                        <span class="icon-globe"></span>
                                     </a>
                                 </li>
                             </ul>
                             <div class="mask">
-                                <h2>Designer</h2>
-                                <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                                <h4>Ogah Balik, Pep Guardiola Sarankan Barcelona Tunjuk Kembali Luis Enrique Sebagai Pelatih</h4>
+                                <p>Manajer Manchester City, Josep Guardiola dikabarkan menolak ajakan Joan Laporta untuk kembali ke mantan klubnya, Barcelona pada musim panas tahun depan. Saat ini posisi pelatih Barcelona masih diduduki oleh Ronald Koeman. Terlepas dari desas-desus pemecatannya, Laporta akhirnya memastikan bahwa Koeman masih akan bertugas untuk musim 2021/22 mendatang.</p>
+                                <br>
+                                <p>Baca Selengkapnya di Bola.net</p>
                             </div>
                         </div>
                     </div>
                     <div class="span4" id="third-person">
                         <div class="thumbnail">
                             <img src="images/Team3.png" alt="team 1">
-                            <h3>John Doe</h3>
+                            <h3>Berita Mbappe</h3>
                             <ul class="social">
                                 <li>
-                                    <a href="">
-                                        <span class="icon-facebook-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-twitter-circled"></span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <span class="icon-linkedin-circled"></span>
+                                    <a href="https://www.bola.net/liga_eropa_lain/kylian-mbappe-putuskan-tak-perpanjang-kontrak-di-psg-jadi-mau-ke-mana-nih-95be6a.html">
+                                        <span class="icon-globe"></span>
                                     </a>
                                 </li>
                             </ul>
                             <div class="mask">
-                                <h2>Photographer</h2>
-                                <p>When you stop expecting people to be perfect, you can like them for who they are.</p>
+                                <h4>Kylian Mbappe Putuskan Tak Perpanjang Kontrak di PSG, Jadi Mau ke Mana Nih?</h4>
+                                <p>Bintang muda PSG, Kylian Mbappe dikabarkan sudah mengatakan pada klubnya bahwa ia tak memiliki niat untuk memperpanjang kontraknya yang berakhir tahun depan. Masa depan Mbappe sudah sejak lama menjadi perbincangan hangat karena banyak klub top Eropa yang menginginkan tanda tangannya. Real Madrid diklaim menjadi peminat Mbappe yang paling serius.</p>
+                                <br>
+                                <p>Baca Selengkapnya di Bola.net</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="about-text centered" id="aboutus">
                     <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                    <p>Website untuk mengetahui statistik dari pertandingan sepak bola baik yang sudah berlalu, sedang berlangsung maupun yang akan datang dengan menggunakan API dari masing-masing Liga terbaik di dunia. Pengunjung dapat membuat akun dan mengunggah data diri. Di Sekilas Bola pun dapat melihat berita seputar sepak bola dari referensi web terpercaya.</p>
                 </div>
-                <h3>Skills</h3>
                 <div class="row-fluid">
-                    <div class="span6">
-                        <ul class="skills">
-                            <li>
-                                <span class="bar" data-width="80%"></span>
-                                <h3>Graphic Design</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="95%"></span>
-                                <h3>Html & Css</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="68%"></span>
-                                <h3>jQuery</h3>
-                            </li>
-                            <li>
-                                <span class="bar" data-width="70%"></span>
-                                <h3>Wordpress</h3>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="span6">
+                    <div class="span6 center">
                         <div class="highlighted-box center">
-                            <h1>We're Hiring</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, ullamcorper suscipit lobortis nisl ut aliquip consequat. I learned that we can do anything, but we can't do everything...</p>
-                            <button class="button button-sp">Join Us</button>
+                            <h1>Anggota Kelompok</h1> <br>
+                            <p>Made Krisnanda Utama		NRP. 05311840000033 </p>
+                            <p>M. Reza Aisyi			NRP. 05311840000036</p>
+                            <p>Azmi			        	NRP. 05311840000047</p>
                         </div>
                     </div>
                 </div>
@@ -696,15 +606,14 @@
         <div class="section secondary-section">
             <div class="triangle"></div>
             <div class="container centered">
-                <p class="large-text">Elegance is not the abundance of simplicity. It is the absence of complexity.</p>
-                <a href="#" class="button">Purshase now</a>
+                <p class="large-text">Football is About Love, Team, and Piece.</p>
             </div>
         </div>
         <!-- Sebelum Footer end -->
         
         <!-- Footer section start -->
         <div class="footer">
-            <p>&copy; 2013 Theme by <a href="http://www.graphberry.com">GraphBerry</a>, <a href="http://goo.gl/NM84K2">Documentation</a></p>
+            <p>Kelompok: Aisyi, Krisna, Azmi</p>
         </div>
         <!-- Footer section end -->
 
